@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hrushikesh Sai Middela | Portfolio</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Poppins", sans-serif;
+            background: #0d1117;
+            color: #e6e6e6;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        header {
+            padding: 40px 10%;
+            text-align: center;
+            background: #161b22;
+            border-bottom: 1px solid #30363d;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+        }
+
+        header p {
+            margin-top: 10px;
+            opacity: 0.8;
+        }
+
+        section {
+            padding: 40px 10%;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #58a6ff;
+        }
+
+        .skills, .education, .projects {
+            border-left: 4px solid #58a6ff;
+            padding-left: 20px;
+            margin-bottom: 40px;
+        }
+
+        .skill-list span, .edu-item, .project {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .project {
+            background: #161b22;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #30363d;
+        }
+
+        .project h3 {
+            margin-bottom: 10px;
+            color: #79c0ff;
+        }
+
+        .project ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #161b22;
+            border-top: 1px solid #30363d;
+            color: #8b949e;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+
+        .highlight {
+            color: #79c0ff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Hrushikesh Sai Middela</h1>
+        <p class="contact-info">
+            Email: <a href="mailto:middelahrushikeshsai@gmail.com">middelahrushikeshsai@gmail.com</a> |
+            Phone: 7075714352 <br>
+            GitHub: <a href="https://github.com/HrushikeshMiddela">github.com/HrushikeshMiddela</a> |
+            LinkedIn: <a href="https://linkedin.com/in/hrushikeshsaimiddela">linkedin.com/in/hrushikeshsaimiddela</a>
+        </p>
+    </header>
+
+    <!-- Skills -->
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill-list">
+                <span><strong>Languages:</strong> Java, Python, JavaScript, TypeScript, SQL</span>
+                <span><strong>Technologies & Tools:</strong> Next.js, React.js, Express.js, Node.js, MongoDB, PostgreSQL</span>
+                <span><strong>Relevant Coursework:</strong> OOP, Databases, Data Structures and Algorithms, Operating Systems, Computer Networks, Machine Learning, Generative AI, NLP, Deep Learning</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+        <h2>Education</h2>
+        <div class="education">
+            <div class="edu-item">
+                <strong>Neil Gogte Institute of Technology, Hyderabad (2023 – 2027)</strong> <br>
+                B.E. in Computer Science and Engineering | CGPA: 7.96/10
+            </div>
+            <div class="edu-item">
+                <strong>Pragathi Junior College, Nalgonda (2021 – 2023)</strong> <br>
+                Intermediate, MPC | Percentage: 93.4
+            </div>
+            <div class="edu-item">
+                <strong>Narayana High School, Nalgonda (2020 – 2021)</strong> <br>
+                SSC | GPA: 10
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+        <h2>Project Work</h2>
+        <div class="projects">
+
+            <!-- Project 1 -->
+            <div class="project">
+                <h3>AvatarLab – AI-Powered Talking Avatar <span class="highlight">(Apr 2025 – July 2025)</span></h3>
+                <span class="highlight">Tech: MERN Stack, TypeScript, FastAPI, StyleTTS2, SadTalker</span>
+                <ul>
+                    <li>Designed a full-stack AI pipeline converting user text & voice into personalized talking avatars.</li>
+                    <li>Integrated StyleTTS2 for voice cloning and SadTalker for realistic head generation.</li>
+                    <li>Developed modular frontend (React + TS) and backend (Node.js + Express + FastAPI).</li>
+                    <li>Added JWT auth, MongoDB history storage, and FFmpeg video processing.</li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/HrushikeshMiddela/AvatarLab-G432-PS25">AvatarLab Repository</a></li>
+                </ul>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project">
+                <h3>Hair & Skin Analysis App <span class="highlight">(Feb 2025 – Mar 2025)</span></h3>
+                <span class="highlight">Tech: MERN, TypeScript, Teachable Machine, Stripe</span>
+                <ul>
+                    <li>Developed AI-powered app analyzing hair & skin using Teachable Machine models.</li>
+                    <li>Implemented real-time predictions with confidence scores and history tracking.</li>
+                    <li>Integrated JWT authentication & Stripe for credit-based access.</li>
+                    <li>Built responsive UI using React + Tailwind CSS.</li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/HrushikeshMiddela/hair-skin-analysis">Hair-Skin Analysis Repo</a></li>
+                </ul>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project">
+                <h3>StockWisely – Stock Prediction Using ANN <span class="highlight">(Nov 2024 – Jan 2025)</span></h3>
+                <span class="highlight">Tech: MERN, ANN, JWT, GSAP, Lenis</span>
+                <ul>
+                    <li>Developed stock prediction web app achieving 85%+ ANN accuracy.</li>
+                    <li>Built secure JWT & bcrypt authentication.</li>
+                    <li>Implemented real-time stock data fetching & interactive charts.</li>
+                    <li>Created animated UI using GSAP & Lenis.</li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/HrushikeshMiddela/Stock-prediction-using-ANN">StockWisely Repo</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Certificates -->
+    <section>
+        <h2>Certificates</h2>
+        <div class="projects">
+            • Completed two project-based certifications in Web Development and Generative AI at NGIT.
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 Hrushikesh Sai Middela. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
